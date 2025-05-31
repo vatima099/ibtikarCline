@@ -26,7 +26,7 @@
 2. **Set Environment Variables**
 
    ```
-   MONGODB_URI = mongodb+srv://vatimahamdy:7Yatbadi@cluster0.y5xbwdp.mongodb.net/reference-management
+
    NEXTAUTH_SECRET = my-super-secret-nextauth-key-for-jwt-signing-2024
    NEXTAUTH_URL = https://your-deployment-url.vercel.app
    ```
