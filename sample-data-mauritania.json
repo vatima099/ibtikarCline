@@ -1,0 +1,197 @@
+{
+  "companyInfo": {
+    "name": "Ibtikaar Tech",
+    "fullName": "Ibtikaar Tech Solutions Numériques",
+    "description": "Entreprise mauritanienne spécialisée dans les solutions numériques et le développement technologique",
+    "location": "Nouakchott, Mauritanie",
+    "website": "https://ibtikaartech.mr",
+    "email": "contact@ibtikaartech.mr",
+    "phone": "+222 45 25 XX XX",
+    "founded": "2020",
+    "specialties": [
+      "Développement web et mobile",
+      "Solutions e-gouvernement",
+      "Systèmes de gestion",
+      "Digitalisation des services",
+      "Formation informatique"
+    ]
+  },
+  "sampleClients": [
+    {
+      "name": "Ministère de l'Éducation Nationale",
+      "industry": "Gouvernement",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://education.gov.mr",
+      "active": true,
+      "projects": [
+        "Système de gestion scolaire",
+        "Plateforme d'enseignement à distance"
+      ]
+    },
+    {
+      "name": "Banque Nationale de Mauritanie",
+      "industry": "Services financiers",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://bnm.mr",
+      "active": true,
+      "projects": [
+        "Application mobile bancaire",
+        "Système de paiement électronique"
+      ]
+    },
+    {
+      "name": "Société Mauritanienne d'Électricité (SOMELEC)",
+      "industry": "Énergie",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://somelec.mr",
+      "active": true,
+      "projects": [
+        "Système de facturation automatisé",
+        "Plateforme de gestion clientèle"
+      ]
+    },
+    {
+      "name": "Port Autonome de Nouakchott",
+      "industry": "Transport et Logistique",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://port-nouakchott.mr",
+      "active": true,
+      "projects": ["Système de gestion portuaire", "Tracking des conteneurs"]
+    },
+    {
+      "name": "Chambre de Commerce de Mauritanie",
+      "industry": "Commerce",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://ccim.mr",
+      "active": true,
+      "projects": ["Registre du commerce numérique", "Plateforme B2B"]
+    },
+    {
+      "name": "Université de Nouakchott",
+      "industry": "Éducation",
+      "country": "Mauritanie",
+      "city": "Nouakchott",
+      "website": "https://univ-nouakchott.mr",
+      "active": true,
+      "projects": ["Système de gestion universitaire", "Bibliothèque numérique"]
+    }
+  ],
+  "sampleProjects": [
+    {
+      "name": "Système National d'Identification Électronique",
+      "client": "Ministère de l'Intérieur",
+      "description": "Développement d'une plateforme nationale pour la gestion des cartes d'identité électroniques avec intégration biométrique",
+      "technology": ["React", "Node.js", "PostgreSQL", "Blockchain"],
+      "status": "Terminé",
+      "startDate": "2023-01-15",
+      "endDate": "2023-12-20",
+      "budget": "2,500,000 MRU",
+      "team": 8,
+      "impact": "Digitalisation de 500,000+ citoyens mauritaniens"
+    },
+    {
+      "name": "Plateforme E-Commerce Mauritanienne",
+      "client": "Fédération des Commerçants",
+      "description": "Marketplace nationale pour promouvoir le commerce électronique local avec support multilingue (Français/Arabe)",
+      "technology": ["Next.js", "MongoDB", "Stripe", "AWS"],
+      "status": "En cours",
+      "startDate": "2024-03-01",
+      "endDate": "2024-08-30",
+      "budget": "1,800,000 MRU",
+      "team": 6,
+      "impact": "200+ commerçants locaux connectés"
+    },
+    {
+      "name": "Application Mobile de Santé",
+      "client": "Ministère de la Santé",
+      "description": "Application mobile pour la télémédecine et le suivi des patients dans les zones rurales",
+      "technology": ["React Native", "Firebase", "WebRTC", "ML"],
+      "status": "En cours",
+      "startDate": "2024-01-10",
+      "endDate": "2024-06-15",
+      "budget": "1,200,000 MRU",
+      "team": 5,
+      "impact": "Accès aux soins pour 50,000+ habitants ruraux"
+    },
+    {
+      "name": "Système de Gestion des Ressources Hydriques",
+      "client": "Ministère de l'Hydraulique",
+      "description": "Plateforme IoT pour monitorer les ressources en eau dans le pays avec alertes automatiques",
+      "technology": ["Python", "Django", "IoT Sensors", "PostgreSQL"],
+      "status": "Planifié",
+      "startDate": "2024-07-01",
+      "endDate": "2025-02-28",
+      "budget": "3,200,000 MRU",
+      "team": 10,
+      "impact": "Gestion optimisée des ressources hydriques nationales"
+    },
+    {
+      "name": "Plateforme d'Enseignement en Ligne",
+      "client": "Université de Nouakchott",
+      "description": "LMS complet avec classes virtuelles, évaluations en ligne et suivi des étudiants",
+      "technology": ["Vue.js", "Laravel", "MySQL", "Zoom API"],
+      "status": "Terminé",
+      "startDate": "2022-09-01",
+      "endDate": "2023-06-30",
+      "budget": "950,000 MRU",
+      "team": 4,
+      "impact": "15,000+ étudiants formés à distance"
+    }
+  ],
+  "mauritanianContext": {
+    "commonTechnologies": [
+      "PHP/Laravel",
+      "JavaScript/React",
+      "Python/Django",
+      "MySQL/PostgreSQL",
+      "WordPress",
+      "Mobile Development (React Native/Flutter)",
+      "Cloud Services (AWS/OVH)",
+      "Payment Integration (Visa/Mastercard/Mobile Money)"
+    ],
+    "keyIndustries": [
+      "Gouvernement et Administration",
+      "Services Financiers et Bancaires",
+      "Éducation et Formation",
+      "Santé et Télémédecine",
+      "Commerce et E-commerce",
+      "Transport et Logistique",
+      "Énergie et Mines",
+      "Agriculture et Pêche"
+    ],
+    "challenges": [
+      "Connectivité internet limitée dans certaines régions",
+      "Besoin de solutions multilingues (Français/Arabe/Pulaar/Soninké/Wolof)",
+      "Adaptation aux conditions climatiques (chaleur, sable)",
+      "Formation des utilisateurs aux nouvelles technologies",
+      "Intégration avec les systèmes gouvernementaux existants"
+    ],
+    "opportunities": [
+      "Digitalisation des services publics",
+      "Développement du e-commerce local",
+      "Solutions pour l'agriculture intelligente",
+      "Fintech et inclusion financière",
+      "EdTech pour l'éducation à distance",
+      "HealthTech pour les zones rurales"
+    ]
+  },
+  "typicalProjectBudgets": {
+    "small": "50,000 - 200,000 MRU",
+    "medium": "200,000 - 1,000,000 MRU",
+    "large": "1,000,000 - 5,000,000 MRU",
+    "enterprise": "5,000,000+ MRU"
+  },
+  "localPartners": [
+    "OVH Cloud (Hébergement)",
+    "Orange Mauritanie (Télécoms)",
+    "Mauritel (Télécoms)",
+    "Chinguitel (Télécoms)",
+    "Banque Centrale de Mauritanie",
+    "ANRPTS (Régulation Télécoms)"
+  ]
+}

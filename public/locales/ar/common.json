@@ -1,0 +1,330 @@
+{
+  "navigation": {
+    "dashboard": "لوحة التحكم",
+    "references": "المراجع",
+    "masterData": "البيانات الأساسية",
+    "users": "المستخدمون",
+    "reports": "التقارير",
+    "allReferences": "جميع المراجع",
+    "addNew": "إضافة جديد",
+    "search": "بحث",
+    "clients": "العملاء",
+    "countries": "البلدان",
+    "technologies": "التقنيات",
+    "documents": "الوثائق"
+  },
+  "pages": {
+    "dashboard": {
+      "title": "لوحة التحكم",
+      "description": "نظرة عامة وتحليلات",
+      "welcome": "مرحباً بك في إبتكار تك - الحلول الرقمية في موريتانيا",
+      "overview": "نظرة عامة",
+      "recentReferences": "المراجع الحديثة",
+      "statistics": "الإحصائيات",
+      "ongoingProjects": "المشاريع الجارية",
+      "highPriority": "أولوية عالية",
+      "myReferences": "مراجعي",
+      "thisWeek": "هذا الأسبوع",
+      "favorites": "المفضلة",
+      "completionRate": "معدل إنجاز المشاريع",
+      "completedPercentage": "نسبة المشاريع المكتملة",
+      "completed": "مكتمل",
+      "completionRateText": "معدل الإنجاز",
+      "priorityDistribution": "توزيع الأولويات",
+      "priorityBreakdown": "تفصيل أولويات المشروع",
+      "totalProjects": "إجمالي المشاريع",
+      "noDataAvailable": "لا توجد بيانات متاحة",
+      "inProgress": "قيد التنفيذ",
+      "successfullyDelivered": "تم التسليم بنجاح",
+      "currentlyInProgress": "قيد التنفيذ حالياً",
+      "requiresAttention": "يتطلب انتباه"
+    },
+    "references": {
+      "title": "المراجع",
+      "description": "إدارة مراجع المشاريع",
+      "addNewReference": "إضافة مرجع جديد",
+      "searchReferences": "البحث في المراجع",
+      "projectName": "اسم المشروع",
+      "client": "العميل",
+      "country": "البلد",
+      "technology": "التقنية",
+      "description": "الوصف",
+      "status": "الحالة",
+      "actions": "الإجراءات",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "view": "عرض",
+      "noReferences": "لم يتم العثور على مراجع"
+    },
+    "masterData": {
+      "title": "البيانات الأساسية",
+      "description": "إدارة العملاء والبلدان والتقنيات",
+      "clients": {
+        "title": "العملاء",
+        "addClient": "إضافة عميل",
+        "name": "الاسم",
+        "industry": "الصناعة",
+        "website": "الموقع الإلكتروني",
+        "country": "البلد",
+        "active": "نشط"
+      },
+      "countries": {
+        "title": "البلدان",
+        "addCountry": "إضافة بلد",
+        "name": "الاسم",
+        "code": "الرمز",
+        "region": "المنطقة"
+      },
+      "technologies": {
+        "title": "التقنيات",
+        "addTechnology": "إضافة تقنية",
+        "name": "الاسم",
+        "category": "الفئة",
+        "version": "الإصدار"
+      }
+    },
+    "users": {
+      "title": "إدارة المستخدمين",
+      "description": "إدارة المستخدمين والأدوار",
+      "addUser": "إضافة مستخدم",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "status": "الحالة"
+    },
+    "roles": {
+      "title": "إدارة الأدوار",
+      "description": "إدارة الأدوار والصلاحيات",
+      "addRole": "إضافة دور",
+      "roleName": "اسم الدور",
+      "permissions": "الصلاحيات",
+      "description": "الوصف"
+    },
+    "accessRights": {
+      "title": "حقوق الوصول",
+      "description": "إدارة حقوق وصول المستخدمين",
+      "user": "المستخدم",
+      "resource": "المورد",
+      "permission": "الصلاحية",
+      "grant": "منح",
+      "revoke": "إلغاء"
+    },
+    "documents": {
+      "title": "إدارة الوثائق",
+      "description": "إدارة وثائق وملفات المشاريع",
+      "upload": "رفع",
+      "download": "تحميل",
+      "fileName": "اسم الملف",
+      "fileSize": "حجم الملف",
+      "uploadDate": "تاريخ الرفع",
+      "category": "الفئة",
+      "tags": "العلامات",
+      "noDocuments": "لم يتم العثور على وثائق",
+      "addDocument": "إضافة وثيقة",
+      "documentDetails": "تفاصيل الوثيقة",
+      "uploadSuccess": "تم رفع الوثيقة بنجاح",
+      "uploadError": "خطأ في رفع الوثيقة",
+      "deleteConfirm": "هل أنت متأكد من حذف هذه الوثيقة؟",
+      "categories": {
+        "certificate": "شهادة",
+        "screenshot": "لقطة شاشة",
+        "other": "أخرى"
+      }
+    }
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "close": "إغلاق",
+    "confirm": "تأكيد",
+    "yes": "نعم",
+    "no": "لا",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجح",
+    "warning": "تحذير",
+    "info": "معلومات",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "search": "بحث",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "import": "استيراد",
+    "print": "طباعة",
+    "refresh": "تحديث"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signOut": "تسجيل الخروج",
+    "signUp": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "forgotPassword": "نسيت كلمة المرور",
+    "rememberMe": "تذكرني",
+    "loginSuccess": "تم تسجيل الدخول بنجاح",
+    "loginError": "خطأ في تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "signingIn": "جاري تسجيل الدخول...",
+    "creatingAccount": "جاري إنشاء الحساب...",
+    "invalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+    "registrationSuccess": "تم التسجيل بنجاح",
+    "registrationError": "خطأ في التسجيل",
+    "passwordMismatch": "كلمات المرور غير متطابقة",
+    "passwordTooShort": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور",
+    "fullNamePlaceholder": "أدخل اسمك الكامل",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signUpHere": "سجل هنا",
+    "signInHere": "ادخل هنا",
+    "welcomeBack": "مرحباً بعودتك",
+    "createYourAccount": "أنشئ حسابك",
+    "signInToAccount": "ادخل إلى حسابك",
+    "getStarted": "ابدأ الآن",
+    "errorOccurred": "حدث خطأ",
+    "selectLanguage": "اختر اللغة"
+  },
+  "roles": {
+    "admin": "مدير",
+    "user": "مستخدم",
+    "manager": "مدير",
+    "viewer": "مشاهد"
+  },
+  "permissions": {
+    "read": "قراءة",
+    "write": "كتابة",
+    "delete": "حذف",
+    "create": "إنشاء",
+    "update": "تحديث",
+    "admin": "إدارة"
+  },
+  "home": {
+    "title": "نظام إدارة المراجع",
+    "subtitle": "حلول رقمية حديثة لموريتانيا",
+    "description": "نظم وأدر واقتبس مراجع البحث الخاصة بك بسهولة. مبني بأدوات حديثة للباحثين والأكاديميين.",
+    "welcomeBack": "مرحباً بعودتك،",
+    "readyToManage": "هل أنت مستعد لإدارة مراجعك؟ ادخل إلى لوحة التحكم للبدء.",
+    "goToDashboard": "الذهاب إلى لوحة التحكم",
+    "getStarted": "ابدأ الآن",
+    "signInWith": "تسجيل الدخول بواسطة",
+    "features": {
+      "organize": {
+        "title": "تنظيم المراجع",
+        "description": "احتفظ بجميع أوراق البحث والكتب والمقالات منظمة في مكان واحد."
+      },
+      "import": {
+        "title": "استيراد سهل",
+        "description": "قم بتحميل واستيراد المراجع من تنسيقات ملفات مختلفة بما في ذلك BibTeX."
+      },
+      "search": {
+        "title": "بحث ذكي",
+        "description": "اعثر على المراجع بسرعة مع قدرات البحث والتصفية القوية."
+      },
+      "collaboration": {
+        "title": "التعاون",
+        "description": "شارك وتعاون في مجموعات المراجع مع فريق البحث الخاص بك."
+      },
+      "analytics": {
+        "title": "تحليلات متقدمة",
+        "description": "احصل على رؤى حول مراجعك مع تحليلات وتقارير مفصلة."
+      },
+      "export": {
+        "title": "تصدير مرن",
+        "description": "صدر مراجعك في تنسيقات متعددة لمنشوراتك وتقاريرك."
+      }
+    },
+    "stats": {
+      "references": "المراجع المُدارة",
+      "users": "المستخدمون النشطون",
+      "projects": "المشاريع المكتملة",
+      "satisfaction": "رضا العملاء"
+    },
+    "cta": {
+      "primary": "ابدأ مجاناً",
+      "secondary": "اعرف المزيد"
+    }
+  },
+  "referenceForm": {
+    "basicInformation": {
+      "title": "المعلومات الأساسية",
+      "description": "التفاصيل الأساسية حول مرجع المشروع",
+      "projectTitle": "عنوان المشروع",
+      "projectTitlePlaceholder": "أدخل عنوان المشروع",
+      "client": "العميل",
+      "clientPlaceholder": "اختر العميل",
+      "description": "الوصف",
+      "descriptionPlaceholder": "وصف مفصل للمشروع، بما في ذلك النطاق والأهداف والتحديات والحلول المقدمة",
+      "descriptionHelper": "قدم وصفاً شاملاً للمشروع"
+    },
+    "locationTeam": {
+      "title": "الموقع والفريق",
+      "description": "المعلومات الجغرافية ومعلومات الفريق",
+      "country": "البلد",
+      "countryPlaceholder": "اختر البلد",
+      "location": "الموقع",
+      "locationPlaceholder": "المدينة أو الموقع المحدد",
+      "employeesInvolved": "الموظفون المشاركون",
+      "employeesInvolvedPlaceholder": "عدد الموظفين",
+      "responsible": "الشخص المسؤول",
+      "responsiblePlaceholder": "اختر الشخص المسؤول",
+      "budget": "الميزانية",
+      "budgetPlaceholder": "مثل: 50,000 $ - 100,000 $",
+      "budgetHelper": "الميزانية التقريبية أو نطاق القيمة"
+    },
+    "statusTimeline": {
+      "title": "الحالة والجدول الزمني",
+      "description": "معلومات حالة المشروع والجدول الزمني",
+      "status": "الحالة",
+      "statusPlaceholder": "اختر الحالة",
+      "priority": "الأولوية",
+      "priorityPlaceholder": "اختر الأولوية",
+      "startDate": "تاريخ البداية",
+      "endDate": "تاريخ الانتهاء"
+    },
+    "technologies": {
+      "title": "التقنيات",
+      "description": "التقنيات والمنصات والأدوات المستخدمة في المشروع",
+      "addTechnologyPlaceholder": "إضافة تقنية"
+    },
+    "keywords": {
+      "title": "الكلمات المفتاحية",
+      "description": "الكلمات المفتاحية القابلة للبحث المرتبطة بالمرجع",
+      "addKeywordPlaceholder": "إضافة كلمة مفتاحية"
+    },
+    "buttons": {
+      "cancel": "إلغاء",
+      "saving": "جاري الحفظ...",
+      "saveReference": "حفظ المرجع"
+    },
+    "validation": {
+      "titleRequired": "العنوان مطلوب",
+      "descriptionRequired": "الوصف مطلوب",
+      "clientRequired": "العميل مطلوب",
+      "countryRequired": "البلد مطلوب",
+      "employeesRequired": "عدد الموظفين المشاركين مطلوب",
+      "responsibleRequired": "الشخص المسؤول مطلوب",
+      "startDateRequired": "تاريخ البداية مطلوب",
+      "technologiesRequired": "تقنية واحدة على الأقل مطلوبة"
+    },
+    "status": {
+      "inProgress": "قيد التنفيذ",
+      "completed": "مكتمل"
+    },
+    "priority": {
+      "high": "عالية",
+      "medium": "متوسطة",
+      "low": "منخفضة"
+    }
+  }
+}

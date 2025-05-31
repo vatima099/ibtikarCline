@@ -1,0 +1,330 @@
+{
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "references": "Références",
+    "masterData": "Données de base",
+    "users": "Utilisateurs",
+    "reports": "Rapports",
+    "allReferences": "Toutes les références",
+    "addNew": "Ajouter nouveau",
+    "search": "Rechercher",
+    "clients": "Clients",
+    "countries": "Pays",
+    "technologies": "Technologies",
+    "documents": "Documents"
+  },
+  "pages": {
+    "dashboard": {
+      "title": "Tableau de bord",
+      "description": "Aperçu et analyses",
+      "welcome": "Bienvenue chez Ibtikaar Tech - Solutions numériques en Mauritanie",
+      "overview": "Aperçu",
+      "recentReferences": "Références récentes",
+      "statistics": "Statistiques",
+      "ongoingProjects": "Projets en cours",
+      "highPriority": "Haute priorité",
+      "myReferences": "Mes Références",
+      "thisWeek": "Cette Semaine",
+      "favorites": "Favoris",
+      "completionRate": "Taux de réalisation des projets",
+      "completedPercentage": "Pourcentage de projets terminés",
+      "completed": "Terminé",
+      "completionRateText": "taux de réalisation",
+      "priorityDistribution": "Répartition des priorités",
+      "priorityBreakdown": "Ventilation des priorités de projet",
+      "totalProjects": "Total des projets",
+      "noDataAvailable": "Aucune donnée disponible",
+      "inProgress": "En cours",
+      "successfullyDelivered": "Livré avec succès",
+      "currentlyInProgress": "Actuellement en cours",
+      "requiresAttention": "Nécessite une attention"
+    },
+    "references": {
+      "title": "Références",
+      "description": "Gérer les références de projet",
+      "addNewReference": "Ajouter une nouvelle référence",
+      "searchReferences": "Rechercher des références",
+      "projectName": "Nom du projet",
+      "client": "Client",
+      "country": "Pays",
+      "technology": "Technologie",
+      "description": "Description",
+      "status": "Statut",
+      "actions": "Actions",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "view": "Voir",
+      "noReferences": "Aucune référence trouvée"
+    },
+    "masterData": {
+      "title": "Données de base",
+      "description": "Gérer les clients, pays, technologies",
+      "clients": {
+        "title": "Clients",
+        "addClient": "Ajouter un client",
+        "name": "Nom",
+        "industry": "Industrie",
+        "website": "Site web",
+        "country": "Pays",
+        "active": "Actif"
+      },
+      "countries": {
+        "title": "Pays",
+        "addCountry": "Ajouter un pays",
+        "name": "Nom",
+        "code": "Code",
+        "region": "Région"
+      },
+      "technologies": {
+        "title": "Technologies",
+        "addTechnology": "Ajouter une technologie",
+        "name": "Nom",
+        "category": "Catégorie",
+        "version": "Version"
+      }
+    },
+    "users": {
+      "title": "Gestion des utilisateurs",
+      "description": "Gestion des utilisateurs et des rôles",
+      "addUser": "Ajouter un utilisateur",
+      "name": "Nom",
+      "email": "Email",
+      "role": "Rôle",
+      "status": "Statut"
+    },
+    "roles": {
+      "title": "Gestion des rôles",
+      "description": "Gérer les rôles et permissions",
+      "addRole": "Ajouter un rôle",
+      "roleName": "Nom du rôle",
+      "permissions": "Permissions",
+      "description": "Description"
+    },
+    "accessRights": {
+      "title": "Droits d'accès",
+      "description": "Gérer les droits d'accès des utilisateurs",
+      "user": "Utilisateur",
+      "resource": "Ressource",
+      "permission": "Permission",
+      "grant": "Accorder",
+      "revoke": "Révoquer"
+    },
+    "documents": {
+      "title": "Gestion des Documents",
+      "description": "Gérer les documents et fichiers de projet",
+      "upload": "Télécharger",
+      "download": "Télécharger",
+      "fileName": "Nom du fichier",
+      "fileSize": "Taille du fichier",
+      "uploadDate": "Date de téléchargement",
+      "category": "Catégorie",
+      "tags": "Étiquettes",
+      "noDocuments": "Aucun document trouvé",
+      "addDocument": "Ajouter un document",
+      "documentDetails": "Détails du document",
+      "uploadSuccess": "Document téléchargé avec succès",
+      "uploadError": "Erreur lors du téléchargement",
+      "deleteConfirm": "Êtes-vous sûr de vouloir supprimer ce document ?",
+      "categories": {
+        "certificate": "Certificat",
+        "screenshot": "Capture d'écran",
+        "other": "Autre"
+      }
+    }
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement",
+    "info": "Information",
+    "required": "Requis",
+    "optional": "Optionnel",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "import": "Importer",
+    "print": "Imprimer",
+    "refresh": "Actualiser"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signOut": "Se déconnecter",
+    "signUp": "S'inscrire",
+    "email": "Email",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "fullName": "Nom complet",
+    "forgotPassword": "Mot de passe oublié",
+    "rememberMe": "Se souvenir de moi",
+    "loginSuccess": "Connexion réussie",
+    "loginError": "Erreur de connexion",
+    "logout": "Déconnexion",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "signingIn": "Connexion en cours...",
+    "creatingAccount": "Création du compte...",
+    "invalidCredentials": "Email ou mot de passe incorrect",
+    "registrationSuccess": "Inscription réussie",
+    "registrationError": "Erreur lors de l'inscription",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "passwordTooShort": "Le mot de passe doit contenir au moins 6 caractères",
+    "emailPlaceholder": "Entrez votre email",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+    "fullNamePlaceholder": "Entrez votre nom complet",
+    "dontHaveAccount": "Vous n'avez pas de compte ?",
+    "alreadyHaveAccount": "Vous avez déjà un compte ?",
+    "signUpHere": "Inscrivez-vous ici",
+    "signInHere": "Connectez-vous ici",
+    "welcomeBack": "Bon retour",
+    "createYourAccount": "Créez votre compte",
+    "signInToAccount": "Connectez-vous à votre compte",
+    "getStarted": "Commencez maintenant",
+    "errorOccurred": "Une erreur s'est produite",
+    "selectLanguage": "Sélectionner la langue"
+  },
+  "roles": {
+    "admin": "Administrateur",
+    "user": "Utilisateur",
+    "manager": "Gestionnaire",
+    "viewer": "Visualiseur"
+  },
+  "permissions": {
+    "read": "Lecture",
+    "write": "Écriture",
+    "delete": "Suppression",
+    "create": "Création",
+    "update": "Mise à jour",
+    "admin": "Administration"
+  },
+  "home": {
+    "title": "Système de Gestion des Références",
+    "subtitle": "Solutions numériques modernes pour la Mauritanie",
+    "description": "Organisez, gérez et citez vos références de recherche avec facilité. Construit avec des outils modernes pour les chercheurs et les académiques.",
+    "welcomeBack": "Bon retour,",
+    "readyToManage": "Prêt à gérer vos références ? Accédez à votre tableau de bord pour commencer.",
+    "goToDashboard": "Aller au tableau de bord",
+    "getStarted": "Commencer",
+    "signInWith": "Se connecter avec",
+    "features": {
+      "organize": {
+        "title": "Organiser les Références",
+        "description": "Gardez tous vos articles de recherche, livres et articles organisés en un seul endroit."
+      },
+      "import": {
+        "title": "Import Facile",
+        "description": "Téléchargez et importez des références depuis divers formats de fichiers y compris BibTeX."
+      },
+      "search": {
+        "title": "Recherche Intelligente",
+        "description": "Trouvez rapidement des références avec des capacités de recherche et de filtrage puissantes."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "Partagez et collaborez sur des collections de références avec votre équipe de recherche."
+      },
+      "analytics": {
+        "title": "Analyses Avancées",
+        "description": "Obtenez des insights sur vos références avec des analyses et rapports détaillés."
+      },
+      "export": {
+        "title": "Export Flexible",
+        "description": "Exportez vos références dans multiple formats pour vos publications et rapports."
+      }
+    },
+    "stats": {
+      "references": "Références Gérées",
+      "users": "Utilisateurs Actifs",
+      "projects": "Projets Complétés",
+      "satisfaction": "Satisfaction Client"
+    },
+    "cta": {
+      "primary": "Commencer Gratuitement",
+      "secondary": "En Savoir Plus"
+    }
+  },
+  "referenceForm": {
+    "basicInformation": {
+      "title": "Informations de base",
+      "description": "Détails essentiels sur la référence du projet",
+      "projectTitle": "Titre du projet",
+      "projectTitlePlaceholder": "Entrez le titre du projet",
+      "client": "Client",
+      "clientPlaceholder": "Sélectionnez un client",
+      "description": "Description",
+      "descriptionPlaceholder": "Description détaillée du projet, y compris la portée, les objectifs, les défis et les solutions fournies",
+      "descriptionHelper": "Fournissez une description complète du projet"
+    },
+    "locationTeam": {
+      "title": "Localisation et équipe",
+      "description": "Informations géographiques et d'équipe",
+      "country": "Pays",
+      "countryPlaceholder": "Sélectionnez un pays",
+      "location": "Localisation",
+      "locationPlaceholder": "Ville ou localisation spécifique",
+      "employeesInvolved": "Employés impliqués",
+      "employeesInvolvedPlaceholder": "Nombre d'employés",
+      "responsible": "Personne responsable",
+      "responsiblePlaceholder": "Sélectionnez une personne responsable",
+      "budget": "Budget",
+      "budgetPlaceholder": "par ex., 50 000 $ - 100 000 $",
+      "budgetHelper": "Budget approximatif ou fourchette de valeur"
+    },
+    "statusTimeline": {
+      "title": "Statut et calendrier",
+      "description": "Informations sur le statut et le calendrier du projet",
+      "status": "Statut",
+      "statusPlaceholder": "Sélectionnez un statut",
+      "priority": "Priorité",
+      "priorityPlaceholder": "Sélectionnez une priorité",
+      "startDate": "Date de début",
+      "endDate": "Date de fin"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "description": "Technologies, plateformes et outils utilisés dans le projet",
+      "addTechnologyPlaceholder": "Ajouter une technologie"
+    },
+    "keywords": {
+      "title": "Mots-clés",
+      "description": "Mots-clés consultables associés à la référence",
+      "addKeywordPlaceholder": "Ajouter un mot-clé"
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "saving": "Enregistrement...",
+      "saveReference": "Enregistrer la référence"
+    },
+    "validation": {
+      "titleRequired": "Le titre est requis",
+      "descriptionRequired": "La description est requise",
+      "clientRequired": "Le client est requis",
+      "countryRequired": "Le pays est requis",
+      "employeesRequired": "Le nombre d'employés impliqués est requis",
+      "responsibleRequired": "La personne responsable est requise",
+      "startDateRequired": "La date de début est requise",
+      "technologiesRequired": "Au moins une technologie est requise"
+    },
+    "status": {
+      "inProgress": "En cours",
+      "completed": "Terminé"
+    },
+    "priority": {
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Faible"
+    }
+  }
+}
