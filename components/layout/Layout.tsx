@@ -179,7 +179,10 @@ function Sidebar({ className }: { className?: string }) {
 
   return (
     <div
-      className={cn("flex h-full w-64 flex-col bg-white border-r", className)}
+      className={cn(
+        "flex h-screen w-64 flex-col bg-white border-r fixed left-0 top-0 z-30",
+        className
+      )}
       dir={router.locale === "ar" ? "rtl" : "ltr"}
     >
       {/* Logo */}
@@ -204,7 +207,7 @@ function Sidebar({ className }: { className?: string }) {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 space-y-1 px-4 py-4">
+      <nav className="flex-1 overflow-y-auto space-y-1 px-4 py-4">
         {navigation.map((item) => {
           const Icon = item.icon;
           const isItemActive = isActive(item.href);
@@ -346,7 +349,7 @@ function Header() {
 
   return (
     <header
-      className="h-16 border-b bg-white"
+      className="h-16 border-b bg-white fixed top-0 right-0 left-64 z-20"
       dir={router.locale === "ar" ? "rtl" : "ltr"}
     >
       <div className="flex h-full items-center justify-between px-6">
@@ -458,9 +461,9 @@ export default function Layout({ children }: LayoutProps) {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col ml-64">
         <Header />
-        <main className="flex-1 overflow-auto">
+        <main className="flex-1 overflow-auto mt-16">
           <div className="h-full p-6">{children}</div>
         </main>
       </div>
