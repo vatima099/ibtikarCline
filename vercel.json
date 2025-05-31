@@ -13,7 +13,14 @@
     }
   },
   "regions": ["iad1"],
+  "git": {
+    "deploymentEnabled": {
+      "master": true
+    }
+  },
   "github": {
-    "silent": true
+    "enabled": true,
+    "autoAlias": true,
+    "silent": false
   }
 }
